@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    background-image: url(../img/fondomusica.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px whitesmoke;
+    background-color: whitesmoke; /* #c0c6c8 | #afb6b9*/
+}
+#containerhome {
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+#containerhome header {
+    box-shadow: 0 0 20px grey;
+}
+header {
+    padding: 0px;
+}
+header img {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-color: gray;
+    color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font: italic bold 35px Georgia, Serif;
+  text-shadow: -4px 3px 0 black, -6px 3px 0 greenyellow;
+  padding: 7px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: black;
+    border: solid 1px black;
+    background-color: #afb6b9;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: gray;
+    color: greenyellow;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+#home h1 {
+    color: greenyellow;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font: italic bold 100px Georgia, Serif;
+  text-shadow: -4px 3px 0 #0a0e27, -6px 3px 0 #FFF;
+  padding: 80px;
+}
+.titulo {
+    color: darkblue;
+    text-align: center;
+}
+.etiqueta {
+    font-size: 34px;
+    color: red;
+}
+.text-derecha {
+    text-align: right;
+}
+#enlaces a {
+    color: rgb(255, 157, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.margen-derecho {
+    margin-right: 80px;
+}
+#tablas table {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+#tdefault th, #tcombi th {
+    background-color: rgb(7, 7, 70);
+    color: cornflowerblue;
+}
+#tdefault td, #tcombi td {
+    background-color: cornflowerblue;
+    color: rgb(7, 7, 70);
+}
+#tcebra tr:nth-child(odd) td{
+    background-color: rgb(243, 204, 204) ;
+}
+
+#tcebra tr:nth-child(even) td{
+    background-color: rgb(205, 205, 241);
+}
+#tablas #thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario thead {
+    background-color: white;
+}
+#thorario th {
+    color: #008080;
+    background-color: white;
+}
+#thorario td, #thorario th,#thorario table {
+    border: solid 1px black;
+}
+.lm {
+    background-color: #01B95C;
+}
+.prog {
+    background-color: #80FFFF;
+}
+.ing {
+    background-color: #80FF81;
+}
+.ende {
+background-color: #8080C0;
+}
+.fol {
+    background-color: #F0F0C8;
+}
+.sisi {
+    background-color: #FF8002;
+}
+.bdd {
+    background-color: #64AA96;
+}
+.txt-26 {
+    font-size: 26px;
+}
+.txt-20 {
+    font-size: 20px;
+}
+#listaor li li {
+    list-style-type:lower-alpha;
+}
+#listaor li li li {
+    list-style-type:lower-roman;
+}
+#listades li li {
+    list-style-image:url(../img/corazon.png);
+}
+#listades li li li{
+    list-style-image: none;
+    list-style-type:circle;
+}
+#formbasic {
+    width:500px;
+}
+#formvari {
+    width:720px;
+}
+#formvari fieldset {
+    width:490px;
+}
+.video {
+   width: 640px;
+   height: 480px;
+   border-width: 10px;
+   border-style: groove;
+}
+#video {
+    text-align: center;
+}
+
+
+#inicio {
+    text-align: center;
+}
+#menuhome{
+    float: center;
+}
+
+#menuhome li{
+    list-style-type: none;
+    font-size: 30px;
+    width: 40%;
+    padding: 8px;
+    margin: 6px;
+    color: black;
+    background-color: #afb6b9;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-shadow: 2px 2px -2px 0 black;
+}
+#menuhome li:hover {
+    background-color: gray;
+    color: greenyellow;
+}
+
+
+#home img {
+    width:100%;
+    height:100%;
+    box-shadow: 0 0 20px grey;
+}
+
+#formmoderno {
+    width: 35%;
+    margin: 0 auto;
+}
+#formmoderno fieldset {
+    border-color: blue;
+}
+#formmoderno legend {
+    color: blue;
+    font-size: 20px;
+}
+#formmoderno input {
+    text-align: center;
+}
+#textInput {
+    width: 10%;
+}

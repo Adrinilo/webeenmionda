@@ -25,10 +25,6 @@ header {
 header img {
     width: 100%;
 }
-nav {
-    width: 20%;
-    float: left;
-}
 #contenido {
     width: 78%;
     float: right;
@@ -36,16 +32,34 @@ nav {
 }
 footer {
     background-color: gray;
-    color: #FFF;
+    color: #a7fdce;
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
   font: italic bold 35px Georgia, Serif;
-  text-shadow: -4px 3px 0 black, -6px 3px 0 greenyellow;
+  text-shadow: -3px 2px 0 black, -4px 2px 0 greenyellow;
   padding: 7px;
 }
 .cb {
     clear: both;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+/*menu pagina principal*/
+.menuinicio {
+    float: none;
+    list-style-type: none;
+    font-size: 30px;
+    width: 36%;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+ 
+}
+#menuhome li {
+    margin-bottom: 30px;
 }
 nav ul, nav li {
     padding: 0;
@@ -60,26 +74,25 @@ nav li {
     color: black;
     border: solid 1px black;
     background-color: #afb6b9;
+    text-shadow: -1px 1px 0 whitesmoke;
+
     border-radius: 10px;
 }
 nav li:hover {
     background-color: gray;
-    color: greenyellow;
+    color: #a7fdce;
+    text-shadow: -2px 1px 0 #0a0e27;
+    border-color: #fbfb0e;
 }
-.azulo {
-    color: darkblue;
-}
-a {
-    text-decoration: none;
-}
+
 #home h1 {
-    color: greenyellow;
+    color: #a7fdce;
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
   font: italic bold 100px Georgia, Serif;
-  text-shadow: -4px 3px 0 #0a0e27, -6px 3px 0 #FFF;
-  padding: 80px;
+  text-shadow: -4px 3px 0 #0a0e27, -6px 3px 0 #fbfb0e;
+  padding: 70px;
 }
 #home img {
     width:60%;
@@ -87,6 +100,12 @@ a {
     margin-bottom: 100px;
     box-shadow: 0 0 20px grey;
     float: right;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
 }
 .titulo {
     color: darkblue;
@@ -205,26 +224,8 @@ background-color: #8080C0;
 #inicio {
     text-align: center;
 }
-#menuhome{
-    float: center;
-}
 
-#menuhome li{
-    list-style-type: none;
-    font-size: 30px;
-    width: 40%;
-    padding: 8px;
-    margin: 6px;
-    color: black;
-    background-color: #afb6b9;
-    border: solid 1px black;
-    border-radius: 10px;
-    text-shadow: 2px 2px -2px 0 black;
-}
-#menuhome li:hover {
-    background-color: gray;
-    color: greenyellow;
-}
+
 
 
 

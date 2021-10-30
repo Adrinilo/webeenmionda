@@ -33,12 +33,12 @@ header img {
 footer {
     background-color: gray;
     color: #a7fdce;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 700;
-  font: italic bold 35px Georgia, Serif;
-  text-shadow: -3px 2px 0 black, -4px 2px 0 greenyellow;
-  padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 35px Georgia, Serif;
+    text-shadow: -3px 2px 0 black, -4px 3px 0 #fbfb0e;
+    padding: 7px;
 }
 .cb {
     clear: both;
@@ -58,8 +58,9 @@ nav {
     color: black;
  
 }
+
 #menuhome li {
-    margin-bottom: 30px;
+    margin-bottom: 7%;
 }
 nav ul, nav li {
     padding: 0;
@@ -71,30 +72,33 @@ nav li {
     text-align: center;
     padding: 8px;
     margin: 5px;
-    color: black;
+    color: #000;
     border: solid 1px black;
     background-color: #afb6b9;
-    text-shadow: -1px 1px 0 whitesmoke;
-
+    text-shadow: -2px 2px 0 #d3d3d3,-3px 3px 0 #a9a9a9;
     border-radius: 10px;
 }
 nav li:hover {
     background-color: gray;
     color: #a7fdce;
     text-shadow: -2px 1px 0 #0a0e27;
-    border-color: #fbfb0e;
+    border: solid 1px #fbfb0e;
 }
-
+#containercasa {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
 #home h1 {
     color: #a7fdce;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 700;
-  font: italic bold 100px Georgia, Serif;
-  text-shadow: -4px 3px 0 #0a0e27, -6px 3px 0 #fbfb0e;
-  padding: 70px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 2px 0 #0a0e27, -6px 3px 0 #fbfb0e;
+    padding: 70px;
 }
-#home img {
+#musicahome img {
     width:60%;
     height:60%;
     margin-bottom: 100px;

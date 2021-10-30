@@ -8,8 +8,12 @@ body {
 #container {
     width: 90%;
     margin: 0 auto;
+    text-align: justify;
     box-shadow: 0 0 10px whitesmoke;
     background-color: whitesmoke; /* #c0c6c8 | #afb6b9*/
+    background-image: url(../img/cassettes-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #containerhome {
     width: 90%;
@@ -18,6 +22,12 @@ body {
 }
 #containerhome header {
     box-shadow: 0 0 10px grey;
+}
+#principal {
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
 }
 header {
     padding: 0px;
@@ -28,7 +38,9 @@ header img {
 #contenido {
     width: 78%;
     float: right;
-    padding-bottom: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
 }
 footer {
     background-color: gray;
@@ -39,6 +51,7 @@ footer {
     font: italic bold 35px Georgia, Serif;
     text-shadow: -3px 2px 0 black, -4px 3px 0 #fbfb0e;
     padding: 7px;
+    margin-top: 50px;
 }
 .cb {
     clear: both;
@@ -56,11 +69,9 @@ nav {
     padding: 0px;
     margin: 0px;
     color: black;
- 
 }
-
-#menuhome li {
-    margin-bottom: 7%;
+#containercasa li {
+    margin-bottom: 5%;
 }
 nav ul, nav li {
     padding: 0;
@@ -84,10 +95,10 @@ nav li:hover {
     text-shadow: -2px 1px 0 #0a0e27;
     border: solid 1px #fbfb0e;
 }
+/*otros elelemtos pagina principal*/
 #containercasa {
     width: 100%;
     height: 100%;
-    align-self: center;
 }
 #home h1 {
     color: #a7fdce;
@@ -98,22 +109,25 @@ nav li:hover {
     text-shadow: -4px 2px 0 #0a0e27, -6px 3px 0 #fbfb0e;
     padding: 70px;
 }
-#musicahome img {
+#home img {
     width:60%;
     height:60%;
-    margin-bottom: 100px;
     box-shadow: 0 0 20px grey;
     float: right;
 }
+/**/
 .azulo {
     color: darkblue;
 }
 a {
     text-decoration: none;
 }
+/*Clase para los titulos*/
 .titulo {
-    color: darkblue;
+    color: #a7fdce;
     text-align: center;
+    font: italic bold 30px Georgia, Serif;
+    text-shadow: -2px 4px 4px black;
 }
 .etiqueta {
     font-size: 34px;
@@ -127,9 +141,7 @@ a {
     font-weight: bold;
     font-size: 20px;
 }
-.margen-derecho {
-    margin-right: 80px;
-}
+
 #tablas table {
     width: 60%;
     margin: 0 auto;
@@ -223,17 +235,9 @@ background-color: #8080C0;
 #video {
     text-align: center;
 }
-
-
 #inicio {
     text-align: center;
 }
-
-
-
-
-
-
 #formmoderno {
     width: 35%;
     margin: 0 auto;

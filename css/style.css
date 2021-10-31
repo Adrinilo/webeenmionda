@@ -12,8 +12,7 @@ body {
     box-shadow: 0 0 10px whitesmoke;
     background-color: whitesmoke; /* #c0c6c8 | #afb6b9*/
     background-image: url(../img/cassettes-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: repeat-y;
 }
 #containerhome {
     width: 90%;
@@ -27,7 +26,6 @@ body {
     margin-right: 40px;
     margin-top: 10px;
     margin-left: 5px;
-    
 }
 header {
     padding: 0px;
@@ -36,11 +34,17 @@ header img {
     width: 100%;
 }
 #contenido {
-    width: 78%;
+    width: 77%;
     float: right;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
     background-color: whitesmoke;
+    margin-bottom: 20px;
+    border: inset 2px black;
+    box-shadow: 0 0 6px grey;
+    border-radius: 8px;
 }
 footer {
     background-color: gray;
@@ -57,7 +61,7 @@ footer {
     clear: both;
 }
 nav {
-    width: 20%;
+    width: 19%;
     float: left;
 }
 /*menu pagina principal*/
@@ -83,6 +87,7 @@ nav li {
     text-align: center;
     padding: 8px;
     margin: 5px;
+    margin-right: 15px;
     color: #000;
     border: solid 1px black;
     background-color: #afb6b9;
@@ -92,10 +97,10 @@ nav li {
 nav li:hover {
     background-color: gray;
     color: #a7fdce;
-    text-shadow: -2px 1px 0 #0a0e27;
+    text-shadow: -2px 2px 0 #0a0e27,-3px 3px 0 #0a0e27;
     border: solid 1px #fbfb0e;
 }
-/*otros elelemtos pagina principal*/
+/*Otros elementos pagina principal*/
 #containercasa {
     width: 100%;
     height: 100%;
@@ -123,18 +128,72 @@ a {
     text-decoration: none;
 }
 /*Clase para los titulos*/
-.titulo {
+#titulo {
     color: #a7fdce;
+    width: 76%;
+    float: right;
     text-align: center;
-    font: italic bold 30px Georgia, Serif;
-    text-shadow: -2px 4px 4px black;
+    font: italic bold 16px Georgia, Serif;
+    text-shadow: -3px 4px 4px black,-4px 5px 2px black;
 }
+#tutorial {
+    width: 76%;
+    float: right;
+    color: #a7fdce;
+    font: italic bold 18px Georgia, Serif;
+    text-shadow: -3px 4px 4px black,-4px 5px 2px black;
+}
+/**/
+/*Pagina párrafos*/
+#datosartistas{
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+#datosartistas h2 {
+    color:black;
+    font: italic 30px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+}
+#letras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+#letras h2 {
+    color:black;
+    font: italic 30px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+    margin-bottom: 0%;
+}
+#letras h3 {
+    color:black;
+    font: italic 20px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+    text-align: right;
+    margin: 0%;
+}
+#itstime {
+    width: 31%;
+    margin-right: 2%;
+}
+#seryestar {
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+#hazdeluz {
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+/**/
 .etiqueta {
     font-size: 34px;
     color: red;
-}
-.text-derecha {
-    text-align: right;
 }
 #enlaces a {
     color: rgb(255, 157, 0);

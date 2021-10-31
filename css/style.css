@@ -137,11 +137,14 @@ a {
     text-shadow: -3px 4px 4px black,-4px 5px 2px black;
 }
 #tutorial {
-    width: 76%;
+    width: 80%;
     float: right;
     color: #a7fdce;
     font: italic bold 18px Georgia, Serif;
     text-shadow: -3px 4px 4px black,-4px 5px 2px black;
+}
+#tutorial h1{
+    text-align: left;
 }
 /**/
 /*Pagina párrafos*/

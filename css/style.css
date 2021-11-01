@@ -1,12 +1,12 @@
+/*Estilos comunes*/
 body {
     margin: 0;
     background-image: url(../img/fondomusica.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
 }
 #container {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
     text-align: justify;
     box-shadow: 0 0 10px whitesmoke;
@@ -14,16 +14,12 @@ body {
     background-image: url(../img/cassettes-wallpaper.jpg);
     background-repeat: repeat-y;
 }
-#containerhome {
-    width: 90%;
-    margin: 0 auto;
-    background-color: transparent;
-}
-#containerhome header {
-    box-shadow: 0 0 10px grey;
+.etiqueta {
+    font-size: 34px;
+    color: red;
 }
 #principal {
-    margin-right: 40px;
+    margin-right: 35px;
     margin-top: 10px;
     margin-left: 5px;
 }
@@ -61,10 +57,21 @@ footer {
     clear: both;
 }
 nav {
-    width: 19%;
+    width: 18%;
     float: left;
 }
-/*menu pagina principal*/
+/*----------------------------------------------------------------------*/
+/*Pagina Inicio*/
+#containerhome {
+    width: 93%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+#containerhome header {
+    box-shadow: 0 0 10px grey;
+}
+/*----------------------------------------------------------------------*/
+/*Menu pagina principal*/
 .menuinicio {
     float: none;
     list-style-type: none;
@@ -100,7 +107,6 @@ nav li:hover {
     text-shadow: -2px 2px 0 #0a0e27,-3px 3px 0 #0a0e27;
     border: solid 1px #fbfb0e;
 }
-/*Otros elementos pagina principal*/
 #containercasa {
     width: 100%;
     height: 100%;
@@ -120,14 +126,15 @@ nav li:hover {
     box-shadow: 0 0 20px grey;
     float: right;
 }
-/**/
+/*----------------------------------------------------------------------*/
 .azulo {
     color: darkblue;
 }
 a {
     text-decoration: none;
 }
-/*Clase para los titulos*/
+/*----------------------------------------------------------------------*/
+/*Titulos*/
 #titulo {
     color: #a7fdce;
     width: 76%;
@@ -137,16 +144,14 @@ a {
     text-shadow: -3px 4px 4px black,-4px 5px 2px black;
 }
 #tutorial {
-    width: 80%;
+    width: 77%;
     float: right;
+    text-align: left;
     color: #a7fdce;
     font: italic bold 18px Georgia, Serif;
     text-shadow: -3px 4px 4px black,-4px 5px 2px black;
 }
-#tutorial h1{
-    text-align: left;
-}
-/**/
+/*----------------------------------------------------------------------*/
 /*Pagina párrafos*/
 #datosartistas{
     margin-bottom: 20px;
@@ -178,6 +183,19 @@ a {
     text-align: right;
     margin: 0%;
 }
+#letras h4, a {
+    color:black;
+    font: italic 20px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+    text-align: right;
+    margin-bottom: 0%;
+}
+.suspensivos {
+    color:black;
+    font: italic 20px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+    text-align: center; 
+}
 #itstime {
     width: 31%;
     margin-right: 2%;
@@ -193,17 +211,14 @@ a {
     margin-right: 0%;
     padding-right: 0%;
 }
-/**/
-.etiqueta {
-    font-size: 34px;
-    color: red;
-}
+/*----------------------------------------------------------------------*/
+/*Página parrafos*/
 #enlaces a {
     color: rgb(255, 157, 0);
     font-weight: bold;
     font-size: 20px;
 }
-
+/*----------------------------------------------------------------------*/
 #tablas table {
     width: 60%;
     margin: 0 auto;

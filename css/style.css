@@ -60,6 +60,13 @@ nav {
     width: 18%;
     float: left;
 }
+#flecha {
+    width: 77%;
+    margin-right: 25px;
+    padding-right: 5px;
+    float: right;
+    text-align: right;
+}
 /*----------------------------------------------------------------------*/
 /*Pagina Inicio*/
 #containerhome {
@@ -174,7 +181,6 @@ a {
     color:black;
     font: italic 30px Georgia, Serif;
     text-shadow: -2px 2px 3px gray;
-    margin-bottom: 0%;
 }
 #letras h3 {
     color:black;
@@ -183,12 +189,18 @@ a {
     text-align: right;
     margin: 0%;
 }
-#letras h4, a {
+#letras h4 {
     color:black;
     font: italic 20px Georgia, Serif;
     text-shadow: -2px 2px 3px gray;
     text-align: right;
     margin-bottom: 0%;
+}
+#letras a {
+    color:black;
+    font: italic 20px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+    text-align: right; 
 }
 .suspensivos {
     color:black;
@@ -212,11 +224,30 @@ a {
     padding-right: 0%;
 }
 /*----------------------------------------------------------------------*/
-/*Página parrafos*/
+/*Página enlaces*/
 #enlaces a {
     color: rgb(255, 157, 0);
     font-weight: bold;
     font-size: 20px;
+}
+.Eflecha {
+    text-align: right;
+}
+#Eartistas h2 {
+    color:black;
+    font: italic 30px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+}
+#Eartistas a {
+    color: #fbfb0e;
+    font: bold 16px Georgia, Serif;
+    text-shadow: -1px 1px 0 gray, -1px 1px 3px black;
+}
+#Etexto {
+    float: left;
+}
+#Eimagen {
+    float: center;
 }
 /*----------------------------------------------------------------------*/
 #tablas table {
@@ -281,6 +312,8 @@ background-color: #8080C0;
 .txt-20 {
     font-size: 20px;
 }
+/*----------------------------------------------------------------------*/
+/*Página Listas*/
 #listaor li li {
     list-style-type:lower-alpha;
 }
@@ -288,7 +321,7 @@ background-color: #8080C0;
     list-style-type:lower-roman;
 }
 #listades li li {
-    list-style-image:url(../img/corazon.png);
+    list-style-image:url(../img/corazon12x12.png);
 }
 #listades li li li{
     list-style-image: none;
@@ -303,6 +336,7 @@ background-color: #8080C0;
 #formvari fieldset {
     width:490px;
 }
+/*----------------------------------------------------------------------*/
 .video {
    width: 640px;
    height: 480px;

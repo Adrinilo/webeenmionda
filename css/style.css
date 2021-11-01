@@ -233,6 +233,9 @@ a {
 .Eflecha {
     text-align: right;
 }
+#Eartistas {
+    margin-left: 20px;
+}
 #Eartistas h2 {
     color:black;
     font: italic 30px Georgia, Serif;
@@ -241,13 +244,25 @@ a {
 #Eartistas a {
     color: #fbfb0e;
     font: bold 16px Georgia, Serif;
-    text-shadow: -1px 1px 0 gray, -1px 1px 3px black;
+    text-shadow: -1px 1px 0 black, -1px 2px 0 gray, -1px 3px 3px black;
 }
 #Etexto {
     float: left;
 }
+#Eartistas p {
+    margin-left: 50px;
+}
+.margen100 {
+    margin-right: 100px;
+}
+#Eartistas img {
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
 #Eimagen {
-    float: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 /*----------------------------------------------------------------------*/
 #tablas table {

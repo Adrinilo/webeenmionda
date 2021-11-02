@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
   <title>EN MI ONDA</title>
 </head>
+
 <body>
   <div id="container">
+    <a name="arriba"></a>
     <header>
       <img src="img/fm.jpg" alt="html5">
     </header>
@@ -42,6 +44,48 @@
           </a>
         </ul>
       </nav>
+      <div id="titulo">
+        <h1 class="titulo">CONTACTA CON NOSOTROS</h1>
+      </div>
+      <div id="contenido" class="fondoformularios">
+        <form>
+          <fieldset id="login" class="fondoform">
+            <br />
+            <legend>LOGIN USUARIOS</legend>
+            <div id="contenidologin">
+              <input type="text" id="user" name="user" placeholder="Usuario">
+              <br /><br />
+              <input type="text" id="password" name="password" placeholder="Contraseña">
+              <br /><br /><br />
+              <input type="submit" value="Enviar">
+            </div>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset id="contacto" class="fondoform">
+            <br />
+            <legend>PROBLEMAS</legend>
+            <div id="contenidocontacto">
+              <input type="text" id="user" name="user" placeholder="Introduce tu usuario" class="usuariocontacto">
+              <input type="email" name="email" placeholder="Introduce tu correo" class="emailcontacto">
+              <br />
+              <div id="contactotextarea">
+                <textarea name="message" rows="10" cols="30" placeholder="Descripción del problema"></textarea>
+              </div>
+            </div>
+            <a href="mailto:enmionda@gmail.es"><input type="submit" value="Enviar"></a>
+          </fieldset>
+        </form>
+      </div>
+      <div id="flecha">
+        <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
+      </div>
+      <div id="tutorial">
+        <h1>EJEMPLO PARA LA CREACIÓN DE ESTE APARTADO</h1>
+      </div>
+      <div id="titulo">
+        <h1 class="titulo">FORMULARIOS</h1>
+      </div>
       <div id="contenido">
         <div id="formularios">
           <h1 class="titulo">Formularios</h1>
@@ -88,24 +132,26 @@
               <br /><br />
               <fieldset>
                 <legend>Aficiones</legend>
-                <input type="checkbox" id="cine" name="cine" value="1">
+                <input type="checkbox" id="cine" name="aficiones" value="1">
                 <label for="cine">Cine</label><br />
-                <input type="checkbox" id="deporte" name="deporte" value="2">
+                <input type="checkbox" id="deporte" name="aficiones" value="2">
                 <label for="deporte">Deporte</label><br />
-                <input type="checkbox" id="juerga" name="cine" value="3">
+                <input type="checkbox" id="juerga" name="aficiones" value="3">
                 <label for="juerga">Juerga</label><br />
-                <input type="checkbox" id="viajar" name="viajar" value="4">
+                <input type="checkbox" id="viajar" name="aficiones" value="4">
                 <label for="viajar"></label>Viajar<br />
               </fieldset>
               <br />
               <fieldset>
                 <legend>Sexo</legend>
-                <input type="radio" id="hombre" name="hombre" value="1">
-                <label for="hombre">hombre</label><br />
-                <input type="radio" id="mujer" name="mujer" value="2">
-                <label for="mujer">mujer</label><br />
-                <input type="radio" id="otros" name="otros" value="3">
-                <label for="otros">otros</label><br />
+                <form>
+                  <input type="radio" id="hombre" name="sexo" value="1">
+                  <label for="hombre">hombre</label><br>
+                  <input type="radio" id="mujer" name="sexo" value="2">
+                  <label for="mujer">mujer</label><br>
+                  <input type="radio" id="otros" name="sexo" value="3">
+                  <label for="otros">otros</label>
+                </form>
               </fieldset>
               <br />
               <input type="submit" value="Aceptar">
@@ -114,6 +160,9 @@
             </fieldset>
           </form>
         </div>
+      </div>
+      <div id="flecha">
+        <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
       </div>
       <div class="cb"></div>
     </div>

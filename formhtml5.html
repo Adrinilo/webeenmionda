@@ -13,8 +13,10 @@
     }
   </script>
 </head>
+
 <body>
   <div id="container">
+    <a name="arriba"></a>
     <header>
       <img src="img/fm.jpg" alt="html5">
     </header>
@@ -47,11 +49,49 @@
           </a>
         </ul>
       </nav>
+      <div id="titulo">
+        <h1 class="titulo">BUSQUEDA DE ENTRADAS</h1>
+      </div>
+      <div id="contenido" class="entradas">
+        <div id="html5">
+          <form action="dfgdfg" method="post"></form>
+        </div>
+        <form action="destino.php" method="POST">
+          <fieldset id="formmoderno" class="buscaentradas">
+            <legend class="BEfieldset">Disponibilidad de tus entradas</legend>
+            <p>Filtrar por:</p>
+            <p>Fecha: <input type="date" name="mes"></p>
+            <p>Fecha y Hora: <input type="datetime-local" name="fehora"></p>
+            <p>Mes: <input type="" name=""></p>
+            <p>Semana: <input type="week" name="semana"></p>
+            <p>Cantidad de entradas: <input type="number" name="número" step="1" min="1" max="6"></p>
+            <p>Precio máximo: <input type="range" name="rango" step="10" min="20" max="200"
+                onchange="updateTextInput(this.value);" />
+              <input type="text" id="textInput" value="">
+            </p>
+            <br />
+            <p>Datos de contacto:</p>
+            <p>Email: <input type="email" name="email" placeholder="Introduce tu correo"></p>
+            <p>Telefono: <input type="tel" name="telefono" placeholder="Introduce tu telefono"></p>
+            
+            <br />
+            <input type="submit" value="Buscar" id="buscar" />
+          </fieldset>
+        </form>
+      </div>
+      <div id="flecha">
+        <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
+      </div>
+      <div id="tutorial">
+        <h1>EJEMPLO PARA LA CREACIÓN DE ESTE APARTADO</h1>
+      </div>
+      <div id="titulo">
+        <h1 class="titulo">FORMULARIO HTML5</h1>
+      </div>
       <div id="contenido">
         <div id="html5">
           <h1 class="titulo">Formularios HTML 5</h1>
-          <form action="dfgdfg" method="post">
-          </form>
+          <form action="dfgdfg" method="post"></form>
         </div>
         <form action="destino.php" method="POST">
           <fieldset id="formmoderno">
@@ -73,6 +113,9 @@
             <input type="submit" value="Enviar" id="enviar1" />
           </fieldset>
         </form>
+      </div>
+      <div id="flecha">
+        <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
       </div>
       <div class="cb"></div>
     </div>

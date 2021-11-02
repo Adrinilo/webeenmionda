@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <title>EN MI ONDA</title>
 </head>
+
 <body>
     <div id="container">
+        <a name="arriba"></a>
         <header>
             <img src="img/fm.jpg" alt="html5">
         </header>
@@ -41,12 +44,84 @@
                     </a>
                 </ul>
             </nav>
+            <div id="titulo">
+                <h1 class="titulo">DISCOS</h1>
+            </div>
+            <div id="contenido">
+                <div id="discos">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="portada">Portada</th>
+                                <th class="tartista">Artista</th>
+                                <th>Álbum</th>
+                                <th>Formato</th>
+                                <th class="precio">Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><img src="img/MercuryActI.png" alt="MercuryActI"></th>
+                                <td rowspan="2" class="imdr"></td>
+                                <td>Mercury - Act I</td>
+                                <td>LP</td>
+                                <td><a href="javascript:alert('Producto en preventa')">24,99 €</a< /td>
+                            </tr>
+                            <tr>
+                                <th><img src="img/nightvisions.jpg" alt="nightvisions"></th>
+                                <td>Night Visions</td>
+                                <td>LP</td>
+                                <td><a href="https://cutt.ly/kR0gRlD" target="_blank">23,99 €</a></td>
+                            </tr>
+                            <tr>
+                                <th><img src="img/ericblanch.jpg" alt="ericblanch"></th>
+                                <td rowspan="2" class="argr"></td>
+                                <td>Eric Blanch</td>
+                                <td>CD</td>
+                                <td><a href="javascript:alert('Producto en preventa')">15,00 €</a></td>
+                            </tr>
+                            <tr>
+                                <th><img src="img/revolucionbananera.jpg" alt="revolucionbananera"></th>
+                                <td>Revolucion Bananera</td>
+                                <td>CD</td>
+                                <td><a href="javascript:alert('Producto fuera de stock')">12,00 €</td>
+                            </tr>
+                            <tr>
+                                <th><img src="img/rayden-homonimo.jpg" alt="raydenhomonimo"></th>
+                                <td rowspan="2" class="rayden"></td>
+                                <td>Homonimo</td>
+                                <td>LP</td>
+                                <td><a href="https://www.fnac.es/a7958944/David-Martinez-Rayden-Homonimo-Vinilo-Disco#omnsearchpos=2"
+                                        target="_blank">23,99 €</a></td>
+                            </tr>
+                            <tr>
+                                <th><img src="img/rayden-sinonimo.jpg" alt="raydensinonimo"></th>
+                                <td>Sinonimo</td>
+                                <td>CD</td>
+                                <td><a href="https://www.fnac.es/a6385724/David-Martinez-Rayden-Sinonimo-Disco#omnsearchpos=8"
+                                        target="_blank">8,99 €</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="flecha">
+                <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
+            </div>
+            <div id="tutorial">
+                <h1>EJEMPLO PARA LA CREACIÓN DE ESTE APARTADO</h1>
+            </div>
+            <div id="titulo">
+                <h1 class="titulo">TABLAS</h1>
+            </div>
             <div id="contenido">
                 <div id="tablas">
                     <h1 class="titulo">Tablas</h1>
-                    <p>Las etiquetas mas importante para diseñar un tabla son <span class="etiqueta">table</span>, <span>
+                    <p>Las etiquetas mas importante para diseñar un tabla son <span class="etiqueta">table</span>,
+                        <span>
                             class="etiqueta">tr</span>, <span class="etiqueta">th</span> y <span
-                            class="etiqueta">td</span></p>
+                            class="etiqueta">td</span>
+                    </p>
                     <h2>Tabla default</h2>
                     <table id="tdefault" border="1">
                         <thead>
@@ -123,7 +198,7 @@
                         </tbody>
                     </table>
                     <h2>Horario</h2>
-                    <div id="thorario" class="margen-derecho">
+                    <div id="thorario">
                         <table>
                             <thead>
                                 <tr>
@@ -141,17 +216,20 @@
                             <tbody>
                                 <tr>
                                     <th>8:15<br>9:10</th>
-                                    <td rowspan="2" class="lm">LMSG-2805299<br>Puli. Mo, FrJo<br>(1B-0001)<br>LMSG-2805299</td>
-                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca, JoJa<br>(1B-001)<br>PROG-2805296</td>
+                                    <td rowspan="2" class="lm">LMSG-2805299<br>Puli. Mo,
+                                        FrJo<br>(1B-0001)<br>LMSG-2805299</td>
+                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca,
+                                        JoJa<br>(1B-001)<br>PROG-2805296</td>
                                     <td class="ing">ING-2805297<br>Corr.Pi, JoMa<br>(1B-001)<br>ING-2804902</td>
-                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca, JoJa<br>(1B-001)<br>PROG-2805296</td>
+                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca,
+                                        JoJa<br>(1B-001)<br>PROG-2805296</td>
                                     <td class="ende">ENDE-2805301<br>Polo Or, Ed<br>(1 B-001)<br>ENDE-2804901</td>
                                 </tr>
                                 <tr>
                                     <th>9:10<br>10:05</th>
                                     <td class="ende">ENDE-2805301<br>Polo Or, Ed<br>(1 B-001)<br>ENDE-2804901</td>
                                     <td class="fol">FOL-2805295<br>Marín Ca, RoMa<br>(1 B-001)<br>FOL-2804904<br></td>
-                                    
+
                                 </tr>
                                 <tr>
                                     <th>10:05<br>11:00</th>
@@ -175,11 +253,15 @@
                                 </tr>
                                 <tr>
                                     <th>12:25<br>13:20</th>
-                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca, JoJa<br>(1B-001)<br>PROG-2805296</td>
+                                    <td rowspan="2" class="prog">PROG-2805296<br>Mart. Ca,
+                                        JoJa<br>(1B-001)<br>PROG-2805296</td>
                                     <td class="ende">ENDE-2805301<br>Polo Or, Ed<br>(1 B-001)<br>ENDE-2804901</td>
-                                    <td rowspan="2" class="bdd">BDD-2805300<BR>Bern. Be, Cr<br>(1B-0001)<br>BDD-2804900</td>
-                                    <td rowspan="2" class="bdd">BDD-2805300<BR>Bern. Be, Cr<br>(1B-0001)<br>BDD-2804900</td>
-                                    <td rowspan="2" class="sisi">SISI-2805298<br>Mart Ru, To <br>(1 B-001)<br>SISI-2805336</td>
+                                    <td rowspan="2" class="bdd">BDD-2805300<BR>Bern. Be, Cr<br>(1B-0001)<br>BDD-2804900
+                                    </td>
+                                    <td rowspan="2" class="bdd">BDD-2805300<BR>Bern. Be, Cr<br>(1B-0001)<br>BDD-2804900
+                                    </td>
+                                    <td rowspan="2" class="sisi">SISI-2805298<br>Mart Ru, To <br>(1
+                                        B-001)<br>SISI-2805336</td>
                                 </tr>
                                 <tr>
                                     <th>13:20<br>14:15</th>
@@ -189,6 +271,9 @@
                         </table>
                     </div>
                 </div>
+            </div>
+            <div id="flecha">
+                <p><a href="#arriba"><img src="img/flechapaco.png" alt="flecha"></a></p>
             </div>
             <div class="cb"></div>
         </div>

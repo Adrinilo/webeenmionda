@@ -397,6 +397,57 @@ background-color: #8080C0;
     list-style-image: none;
     list-style-type:circle;
 }
+#merchandising li {
+    font: italic bold 100% Georgia, Serif;
+    list-style-type:none;
+}
+#merchandising li li {
+    font: italic bold 100% Georgia, Serif;
+    list-style-image: none;
+}
+#merchandising h2 {
+    color:black;
+    font: italic 30px Georgia, Serif;
+    text-shadow: -2px 2px 3px gray;
+}
+#ropa div li {
+    list-style-type: disc;
+}
+#ropa li li {
+    /*list-style-image:none;*/
+    list-style-type: circle;
+    margin-top: 10px;
+}
+#ropa li ol li {
+    /*list-style-image:none;*/
+    list-style-type:lower-roman;
+    font: 100% Georgia, Serif;
+}
+#libros li {
+    list-style-type: square;
+}
+#libros li ol li {
+    list-style-type:lower-roman;
+    font: 100% Georgia, Serif;
+}
+/*
+#libros div li {
+    list-style-image:url(../img/sudadera.png);
+}
+*/
+#camisetas {
+    float: left;
+}
+#sudaderas {
+    float: right;
+}
+#divropa {
+    width: 60%;
+    margin-bottom: 25%;
+}
+#divlibros {
+    float: left;
+}
 /*----------------------------------------------------------------------*/
 /*Pagina Multimedia*/
 .video {

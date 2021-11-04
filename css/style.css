@@ -438,15 +438,30 @@ background-color: #8080C0;
 #camisetas {
     float: left;
 }
+#camisetas ol li {
+    list-style-image:url(../img/camiseta16x16.png);
+}
 #sudaderas {
     float: right;
+}
+#sudaderas ol li {
+    list-style-image:url(../img/sudadera16x16.png);
+}
+#libros ol li {
+    list-style-image:url(../img/libro16x16.png);
 }
 #divropa {
     width: 60%;
     margin-bottom: 25%;
 }
+#divropa li {
+    list-style-image:url(../img/ropa.png);
+}
 #divlibros {
     float: left;
+}
+#divlibros li {
+    list-style-image:url(../img/libros.png);
 }
 /*----------------------------------------------------------------------*/
 /*Pagina Multimedia*/
